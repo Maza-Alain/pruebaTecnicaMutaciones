@@ -118,13 +118,20 @@ Debes agregar Test Automáticos, Code coverage > 80%.
 
 # EJECUCION EN LOCAL
 1-Clona este repositorio
+
 2-Ejecuta el comando npm i
+
 3-Puedes correrlo con npm run start
+
 4-Las rutas establecidas para la prueba son dos:
+
    POST => /mutation/
+
    GET=> /mutation/stats
+
    Como se comenta en las instrucciones, para el post deberas proporcionar un json en el
    body con este formato
+
     {
     "dna": [
         "ATGCGA",
@@ -134,12 +141,17 @@ Debes agregar Test Automáticos, Code coverage > 80%.
         "GCGTCA",
         "TCACTG"]
     }
+
 # EJECUCION EN LA NUBE
 Esta prueba tambien aloja la api en un servicio de aws, para que sin necesidad de clonar
 el proyecto puedas acceder a ella. Las rutas de la API son:
+
     POST => /mutation/
+
    GET=> /mutation/stats
+
    Formato de json en el body es el mismo
+   
     {
     "dna": [
         "ATGCGA",
