@@ -148,7 +148,7 @@ el proyecto puedas acceder a ella. Las rutas de la API son:
 
     POST => ec2-54-210-166-254.compute-1.amazonaws.com/mutation/
 
-   GET=> ec2-54-210-166-254.compute-1.amazonaws.com/mutation/stats
+   GET => ec2-54-210-166-254.compute-1.amazonaws.com/mutation/stats/
 
    Formato de json en el body es el mismo
    
