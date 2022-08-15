@@ -146,9 +146,9 @@ Debes agregar Test Automáticos, Code coverage > 80%.
 Esta prueba tambien aloja la api en un servicio de aws, para que sin necesidad de clonar
 el proyecto puedas acceder a ella. Las rutas de la API son:
 
-    POST => /mutation/
+    POST => ec2-54-210-166-254.compute-1.amazonaws.com/mutation/
 
-   GET=> /mutation/stats
+   GET=> ec2-54-210-166-254.compute-1.amazonaws.com/mutation/stats
 
    Formato de json en el body es el mismo
    
@@ -161,3 +161,6 @@ el proyecto puedas acceder a ella. Las rutas de la API son:
         "GCGTCA",
         "TCACTG"]
     }
+    
+# NOTA FINAL
+No realicé la parte de las pruebas, debido a que tengo conocimiento no muy basto sobre testing y no pude darme el tiempo para investigar. Sin embargo no me cierro a aprender si es necesario.
